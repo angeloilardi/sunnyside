@@ -24,7 +24,7 @@ export default function Home() {
 
       {/* Transform yor brand */}
       <div className="flex flex-col md:flex-row">
-        <div className="w-full bg-[url(/images/mobile/image-transform.jpg)] md:bg-[url(/images/desktop/image-transform.jpg)]bg-cover bg-no-repeat aspect-[11/9] md:w-[50%]"></div>
+        <div className="w-full bg-[url(/images/mobile/image-transform.jpg)] md:bg-[url(/images/desktop/image-transform.jpg)] bg-cover bg-no-repeat aspect-[11/9] md:w-[50%]"></div>
         <div className="bg-white flex flex-col py-16 px-7 gap-8 text-center md:text-left md:order-1 md:w-[50%] md:px-28 justify-center">
           <h2 className="font-fraunces font-[700] text-3xl text-black">
             Transform your brand
@@ -34,11 +34,11 @@ export default function Home() {
             grow fast. Engage your clients through compelling visuals that do
             most of the marketing for you.
           </p>
-          <div className="flex flex-col items-center md:items-start">
-            <button className="uppercase text-black font-fraunces tracking-wide z-10">
+          <div className="flex flex-col items-center md:items-start relative">
+            <button className="uppercase text-black font-fraunces tracking-wide z-10 peer">
               Learn More
             </button>
-            <div className="rounded-full w-[140px] h-2.5 bg-gold-800 text-center -mt-2.5"></div>
+            <div className="rounded-full w-[140px] h-2.5 bg-gold-800 text-center -mt-2.5 relative md:-left-3 peer-hover:bg-gold"></div>
           </div>
         </div>
       </div>
@@ -57,10 +57,10 @@ export default function Home() {
             extend your brand in digital places.
           </p>
           <div className="flex flex-col items-center md:items-start">
-            <button className="uppercase text-black font-fraunces tracking-wide z-10">
+            <button className="uppercase text-black font-fraunces tracking-wide z-10 peer">
               Learn More
             </button>
-            <div className="rounded-full w-[140px] h-2.5 bg-bittersweet-800 text-center -mt-2.5"></div>
+            <div className="rounded-full w-[140px] h-2.5 bg-bittersweet-800 peer-hover:bg-bittersweet text-center -mt-2.5 relative md:-left-3"></div>
           </div>
         </div>
       </div>

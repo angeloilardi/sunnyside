@@ -46,7 +46,7 @@ const Navbar = () => {
         ))}
 
         <li>
-          <button className="bg-white text-gunmetal rounded-full p-4 w-[140px] hover:opacity-60 font-fraunces">
+          <button className="bg-white text-gunmetal rounded-full p-4 w-[140px] hover:text-white hover font-fraunces hover:bg-[#6fcfff]">
             CONTACT
           </button>
         </li>
