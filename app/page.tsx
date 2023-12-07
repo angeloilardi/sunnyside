@@ -87,22 +87,23 @@ export default function Home() {
 
       {/* Testimonials */}
 
-      <h3 className="font-fraunces py-16 tracking-widest text-french_gray md:pt-40 md:pb-16">
-        CLIENT TESTIMONIALS
-      </h3>
-
-      <div className="flex flex-col gap-16 items-center mb-16 md:flex-row md:max-w-[1100px] md:gap-10 md:mb-40">
-        {testimonials.map((testimonial, i) => {
-          return (
-            <Testimonials
-              key={i}
-              name={testimonial.name}
-              icon={testimonial.icon}
-              position={testimonial.position}
-              content={testimonial.content}
-            />
-          );
-        })}
+      <div className="bg-white w-full">
+        <h3 className="font-fraunces py-16 tracking-widest text-french_gray md:pt-40 md:pb-16 text-center">
+          CLIENT TESTIMONIALS
+        </h3>
+        <div className="flex flex-col gap-16 items-center mb-16 md:flex-row justify-center md:max-w-[1100px] md:gap-10 md:mb-40 md:mx-auto">
+          {testimonials.map((testimonial, i) => {
+            return (
+              <Testimonials
+                key={i}
+                name={testimonial.name}
+                icon={testimonial.icon}
+                position={testimonial.position}
+                content={testimonial.content}
+              />
+            );
+          })}
+        </div>
       </div>
 
       {/* Image grid */}

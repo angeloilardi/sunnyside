@@ -24,7 +24,7 @@ export default function RootLayout({
       lang="en"
       className={`${fraunces.variable} ${barlow.variable}`}
     >
-      <body>{children}</body>
+      <body className='bg-white'>{children}</body>
     </html>
   );
 }
