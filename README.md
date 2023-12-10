@@ -47,8 +47,8 @@ Users should be able to:
 
 ### What I learned
 
-- How to use SVGs as React Component so to have full control on their customisation
-- Using local storge to make user data persistent
+- How to use SVGs as React Component so to have full control on their properties
+- Tailwind theme customisation
 
 ## Author
 
