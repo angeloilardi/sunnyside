@@ -25,9 +25,9 @@ export default function Home() {
       </header>
 
       {/* Transform yor brand */}
-      <div className="flex flex-col md:flex-row" id='main'>
-        <div className="w-full bg-[url(/images/mobile/image-transform.jpg)] md:bg-[url(/images/desktop/image-transform.jpg)] bg-cover bg-no-repeat aspect-[11/9] md:w-[50%]"></div>
-        <div className="bg-white flex flex-col py-16 px-7 gap-8 text-center md:text-left md:order-1 md:w-[50%] md:px-28 justify-center">
+      <div className="flex flex-col md:flex-row" id="main">
+        <div className="w-full bg-[url(/images/mobile/image-transform.jpg)] md:bg-[url(/images/desktop/image-transform.jpg)] bg-cover bg-no-repeat aspect-[11/9] md:w-[50%] md:order-2"></div>
+        <div className="bg-white flex flex-col py-16 px-7 gap-8 text-center md:text-left  md:w-[50%] md:px-28 justify-center">
           <h2 className="font-fraunces font-[700] text-3xl text-black">
             Transform your brand
           </h2>
@@ -48,8 +48,8 @@ export default function Home() {
       {/* Stand out */}
 
       <div className="flex flex-col md:flex-row w-full">
-        <div className="w-full bg-[url(/images/mobile/image-stand-out.jpg)] md:bg-[url(/images/desktop/image-stand-out.jpg)] bg-cover bg-no-repeat aspect-[11/9] md:w-[50%] md:order-2"></div>
-        <div className="bg-white flex flex-col py-16 px-7 gap-8 text-center md:text-left md:order-1 md:w-[50%] md:px-28 justify-center">
+        <div className="w-full bg-[url(/images/mobile/image-stand-out.jpg)] md:bg-[url(/images/desktop/image-stand-out.jpg)] bg-cover bg-no-repeat aspect-[11/9] md:w-[50%]"></div>
+        <div className="bg-white flex flex-col py-16 px-7 gap-8 text-center md:text-left md:w-[50%] md:px-28 justify-center">
           <h2 className="font-fraunces font-[700] text-3xl text-black">
             Stand out to the right audience
           </h2>
