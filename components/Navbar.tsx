@@ -24,7 +24,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex justify-start items-center w-full text-white bg-transparent p-5">
+    <div className="flex justify-start items-center w-full text-white bg-transparent px-5 pt-7">
       {/* Logo */}
       <div>
         <h1 className="text-5xl">

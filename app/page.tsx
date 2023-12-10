@@ -9,21 +9,23 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between">
       <header className="h-screen bg-[url(/images/mobile/image-header.jpg)] bg-cover w-full bg-center relative md:bg-[url(/images/desktop/image-header.jpg)]">
         <Navbar />
-        <div className="flex flex-col items-center flex-wrap justify-center gap-14 relative top-[30%] md:top-[20%] mx-auto">
+        <div className="flex flex-col items-center flex-wrap justify-center gap-14 relative top-[32%] md:top-[20%] mx-auto">
           <h1 className="font-fraunces font-[900] text-4xl tracking-widest text-white text-center">
             WE ARE CREATIVES
           </h1>
-          <Image
-            src="/images/icon-arrow-down.svg"
-            width={36}
-            height={114}
-            alt=""
-          />
+          <a href="#main">
+            <Image
+              src="/images/icon-arrow-down.svg"
+              width={36}
+              height={114}
+              alt=""
+            />
+          </a>
         </div>
       </header>
 
       {/* Transform yor brand */}
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col md:flex-row" id='main'>
         <div className="w-full bg-[url(/images/mobile/image-transform.jpg)] md:bg-[url(/images/desktop/image-transform.jpg)] bg-cover bg-no-repeat aspect-[11/9] md:w-[50%]"></div>
         <div className="bg-white flex flex-col py-16 px-7 gap-8 text-center md:text-left md:order-1 md:w-[50%] md:px-28 justify-center">
           <h2 className="font-fraunces font-[700] text-3xl text-black">
